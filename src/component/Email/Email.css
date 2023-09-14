@@ -1,0 +1,33 @@
+.email-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 70%;
+  background-color: #000080;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 100px;
+  margin-top: 20px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px; /* Allow content to take the full width within .email-wrapper */
+}
+
+.email-container > input {
+  width: 100%; /* Make the input elements full width within .email */
+  max-width: 400px; /* Set a maximum width for the input elements */
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}

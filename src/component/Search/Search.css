@@ -1,0 +1,90 @@
+.si {
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.si-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.si-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+}
+.si-feature {
+  font-size: 0.8em;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.si-title {
+  font-size: 1.6em;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.si-taxi {
+  background-color: red;
+  width: max-content;
+  border-radius: 5px;
+  padding: 2px;
+}
+.si-sub {
+  font-weight: 800;
+  font-size: 0.8em;
+}
+.si-detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ff8c00;
+  padding: 20px;
+  border-radius: 20px;
+}
+.si-cancel {
+  font-weight: bold;
+  color: green;
+}
+.si-cancelDetail {
+  color: green;
+}
+
+.si-rate {
+  display: flex;
+  justify-content: space-between;
+}
+.si-rate > span {
+  font-weight: 800;
+}
+.si-rate > button {
+  padding: 5px;
+  font-weight: bold;
+}
+.si-detailText {
+  text-align: right;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.si-price {
+  font-size: 1.2em;
+}
+.si-tax {
+  font-size: 1em;
+}
+.si-detailText .btn {
+  padding: 10px 5px;
+  color: #fff;
+  cursor: pointer;
+}
